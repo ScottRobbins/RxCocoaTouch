@@ -3,11 +3,14 @@ use_frameworks!
 
 target 'RxCocoaTouch_Example', :exclusive => true do
   pod "RxCocoaTouch", :path => "../"
+  
+  pod 'RxSwift', :git => 'https://github.com/ReactiveX/RxSwift.git', :tag => '2.0-alpha.1'
+  pod 'RxCocoa', :git => 'https://github.com/ReactiveX/RxSwift.git', :tag => '2.0-alpha.1'
 end
 
 target 'RxCocoaTouch_Tests', :exclusive => true do
   pod "RxCocoaTouch", :path => "../"
 
-  pod 'Quick', '~> 0.3.1'
-  pod 'Nimble'
+  pod 'RxSwift', :git => 'https://github.com/ReactiveX/RxSwift.git', :tag => '2.0-alpha.1'
+  pod 'RxCocoa', :git => 'https://github.com/ReactiveX/RxSwift.git', :tag => '2.0-alpha.1'
 end

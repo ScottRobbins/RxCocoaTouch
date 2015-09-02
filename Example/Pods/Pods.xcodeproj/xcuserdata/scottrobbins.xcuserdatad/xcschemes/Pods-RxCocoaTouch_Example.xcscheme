@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F8BCAAE4452C8518EF5987BB"
+               BlueprintIdentifier = "072862140D2FCD9EBFFE764D"
                BuildableName = "Pods_RxCocoaTouch_Example.framework"
                BlueprintName = "Pods-RxCocoaTouch_Example"
                ReferencedContainer = "container:Pods.xcodeproj">

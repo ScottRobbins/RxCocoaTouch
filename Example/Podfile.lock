@@ -1,20 +1,37 @@
 PODS:
-  - Nimble (1.0.0)
-  - Quick (0.3.1)
-  - RxCocoaTouch (0.1.0)
+  - RxCocoa (2.0-alpha.1):
+    - RxSwift (~> 2.0-alpha)
+  - RxCocoaTouch (0.0.1):
+    - RxCocoa
+    - RxSwift
+  - RxSwift (2.0-alpha.1)
 
 DEPENDENCIES:
-  - Nimble
-  - Quick (~> 0.3.1)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, tag `2.0-alpha.1`)
   - RxCocoaTouch (from `../`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, tag `2.0-alpha.1`)
 
 EXTERNAL SOURCES:
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 2.0-alpha.1
   RxCocoaTouch:
     :path: "../"
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 2.0-alpha.1
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 2.0-alpha.1
+  RxSwift:
+    :git: https://github.com/ReactiveX/RxSwift.git
+    :tag: 2.0-alpha.1
 
 SPEC CHECKSUMS:
-  Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
-  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
-  RxCocoaTouch: 53dd5818f2a8b45339202491aea29f1d116388ba
+  RxCocoa: 9f4780fae87f6432ecba3f6bfa44a0e12a84b41b
+  RxCocoaTouch: 701e7dc7ae89c92d6acfe3a3eedf21be4bd4954d
+  RxSwift: 48982aff7a725bc6d0799aae6d539f360b940ff4
 
 COCOAPODS: 0.38.2

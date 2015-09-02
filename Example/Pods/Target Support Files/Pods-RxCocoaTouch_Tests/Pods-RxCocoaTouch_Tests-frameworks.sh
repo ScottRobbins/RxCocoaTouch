@@ -52,12 +52,12 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-RxCocoaTouch_Tests/RxCocoa.framework'
   install_framework 'Pods-RxCocoaTouch_Tests/RxCocoaTouch.framework'
-  install_framework 'Pods-RxCocoaTouch_Tests/Nimble.framework'
-  install_framework 'Pods-RxCocoaTouch_Tests/Quick.framework'
+  install_framework 'Pods-RxCocoaTouch_Tests/RxSwift.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-RxCocoaTouch_Tests/RxCocoa.framework'
   install_framework 'Pods-RxCocoaTouch_Tests/RxCocoaTouch.framework'
-  install_framework 'Pods-RxCocoaTouch_Tests/Nimble.framework'
-  install_framework 'Pods-RxCocoaTouch_Tests/Quick.framework'
+  install_framework 'Pods-RxCocoaTouch_Tests/RxSwift.framework'
 fi

@@ -1,16 +1,16 @@
 {
   "name": "RxCocoaTouch",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of RxCocoaTouch.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RxCocoaTouch",
+  "homepage": "https://github.com/ScottRobbins/RxCocoaTouch",
   "license": "MIT",
   "authors": {
     "Scott Robbins": "srscottrobbins@gmail.com"
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/RxCocoaTouch.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -20,6 +20,14 @@
   "resource_bundles": {
     "RxCocoaTouch": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
     ]
   }
 }

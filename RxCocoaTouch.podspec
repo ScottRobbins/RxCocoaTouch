@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RxCocoaTouch"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A short description of RxCocoaTouch."
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RxCocoaTouch"
+  s.homepage         = "https://github.com/ScottRobbins/RxCocoaTouch"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Scott Robbins" => "srscottrobbins@gmail.com" }
@@ -36,5 +36,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
 end
