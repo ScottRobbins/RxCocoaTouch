@@ -1,0 +1,20 @@
+PODS:
+  - Nimble (1.0.0)
+  - Quick (0.3.1)
+  - RxCocoaTouch (0.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick (~> 0.3.1)
+  - RxCocoaTouch (from `../`)
+
+EXTERNAL SOURCES:
+  RxCocoaTouch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  RxCocoaTouch: 53dd5818f2a8b45339202491aea29f1d116388ba
+
+COCOAPODS: 0.38.2

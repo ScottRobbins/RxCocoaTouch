@@ -1,0 +1,6 @@
+framework module RxCocoaTouch {
+  umbrella header "RxCocoaTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
