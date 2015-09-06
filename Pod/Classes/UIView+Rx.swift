@@ -28,8 +28,8 @@ extension UIView {
         }
     }
     
-    public var rx_tintColor: ObserverOf<UIColor> {
-        return observerOfWithPropertySetter { [weak self] (tintColor: UIColor) in
+    public var rx_tintColor: ObserverOf<UIColor?> {
+        return observerOfWithPropertySetter { [weak self] (tintColor: UIColor?) in
             self?.tintColor = tintColor
         }
     }

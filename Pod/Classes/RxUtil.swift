@@ -19,7 +19,7 @@ func bindingErrorToInterface(error: ErrorType) {
     let error = "Binding error to UI: \(error)"
     #if DEBUG
         rxFatalError(error)
-        #else
+    #else
         print(error)
     #endif
 }
