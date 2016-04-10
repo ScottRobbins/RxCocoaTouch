@@ -1,3 +1,5 @@
+### Everything below is filler for when this pod is finished. The source code all works but it does not function as a pod. 
+
 # RxCocoaTouch
 
 [![CI Status](http://img.shields.io/travis/Scott Robbins/RxCocoaTouch.svg?style=flat)](https://travis-ci.org/Scott Robbins/RxCocoaTouch)
